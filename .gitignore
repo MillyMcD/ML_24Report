@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+*.bin
+
+src/sent2vec
+
 # Distribution / packaging
 .Python
 build/

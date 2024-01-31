@@ -1,5 +1,14 @@
 # Spotify ML
-This is a project that explores the top 10,000 songs played on Spotify
+This is a project that explores the top 10,000 songs played on Spotify. Firstly, this project uses the sent2vec pretrained model for encoding model weights. Go to this repository:
+
+```
+https://github.com/epfml/sent2vec
+```
+
+And clone it, storing it under `src/sent2vec`.
+
+and download the `twitter_unigrams.bin` model and rename it as `model.bin` under `src`
+
 
 ## Installation
 To install this project, call
@@ -16,11 +25,3 @@ source run.sh
 ```
 
 This will spin up a jupyter notebook server on port 9001.
-
-# Sent2Vec
-this project uses the sent2vec pretrained model for encoding model weights. Go to this repository:
-
-```
-https://github.com/epfml/sent2vec
-```
-and download the `twitter_unigrams.bin` model and rename it as `model.bin` here.
